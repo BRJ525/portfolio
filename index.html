@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brandon Jones | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <div class="bg-grid"></div>
+
+  <header class="header">
+    <nav class="nav">
+      <a href="#" class="logo">Brandon<span> Jones</span></a>
+
+      <button class="menu-btn" id="menuBtn">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content reveal">
+      <p class="eyebrow">Roblox Developer • Game Designer • Programmer</p>
+      <h1>
+        I build games,
+        <span>systems</span>,
+        and experiences players come back to.
+      </h1>
+      <p class="hero-text">
+        Solo developer behind a Roblox soccer game with millions of visits,
+        focused on scripting, UI/UX, live updates, progression systems,
+        and player retention.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View My Work</a>
+        <a href="#contact" class="btn glass">Let’s Connect</a>
+      </div>
+    </div>
+
+    <div class="hero-panel reveal">
+      <div class="orb"></div>
+      <div class="profile-card">
+        <div class="avatar">BJ</div>
+        <h2>Brandon Jones</h2>
+        <p>Game Developer</p>
+
+        <div class="stats">
+          <div>
+            <strong data-count="25">0</strong><span>M+</span>
+            <p>Visits</p>
+          </div>
+          <div>
+            <strong data-count="6">0</strong><span>+</span>
+            <p>Years</p>
+          </div>
+          <div>
+            <strong data-count="50">0</strong><span>K+</span>
+            <p>Earned</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="section-title reveal">
+      <p>About Me</p>
+      <h2>Real experience building for real players.</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card reveal">
+        <h3>Creator Mindset</h3>
+        <p>
+          I’ve built, shipped, updated, and improved live Roblox projects with
+          real users. That means handling feedback, bugs, updates, monetization,
+          and player retention.
+        </p>
+      </div>
+
+      <div class="about-card reveal">
+        <h3>Technical Focus</h3>
+        <p>
+          My work includes Lua scripting, gameplay systems, progression,
+          UI/UX, analytics, live ops, game economies, and polishing features
+          until they feel good to play.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section dark">
+    <div class="section-title reveal">
+      <p>Featured Projects</p>
+      <h2>Selected Work</h2>
+    </div>
+
+    <div class="filters reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="game">Games</button>
+      <button class="filter-btn" data-filter="system">Systems</button>
+      <button class="filter-btn" data-filter="ui">UI/UX</button>
+    </div>
+
+    <div class="project-grid">
+      <div class="project-card reveal" data-category="game">
+        <div class="project-icon">⚽</div>
+        <h3>My Soccer Team!</h3>
+        <p>
+          Roblox soccer game with millions of visits, live updates,
+          progression, sports gameplay, and long-term player engagement.
+        </p>
+        <div class="tags">
+          <span>Roblox</span>
+          <span>Lua</span>
+          <span>Game Design</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-category="system">
+        <div class="project-icon">📦</div>
+        <h3>Reward Systems</h3>
+        <p>
+          Built progression loops, player rewards, item systems,
+          monetization flows, and replayable gameplay mechanics.
+        </p>
+        <div class="tags">
+          <span>Systems</span>
+          <span>Progression</span>
+          <span>Retention</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-category="ui">
+        <div class="project-icon">🧩</div>
+        <h3>Game UI Design</h3>
+        <p>
+          Designed menus, cards, buttons, panels, stores, and interactive
+          interfaces built for players on Roblox.
+        </p>
+        <div class="tags">
+          <span>UI/UX</span>
+          <span>Design</span>
+          <span>Roblox</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-category="system">
+        <div class="project-icon">🚀</div>
+        <h3>Live Operations</h3>
+        <p>
+          Managed bug fixes, updates, community feedback, events,
+          balancing, and ongoing improvements after launch.
+        </p>
+        <div class="tags">
+          <span>Live Ops</span>
+          <span>Analytics</span>
+          <span>Updates</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="section-title reveal">
+      <p>Skills</p>
+      <h2>Tools and strengths</h2>
+    </div>
+
+    <div class="skills-wrapper reveal">
+      <div class="skill-row">
+        <span>Roblox Studio</span>
+        <div class="bar"><div style="width:95%"></div></div>
+      </div>
+
+      <div class="skill-row">
+        <span>Lua Scripting</span>
+        <div class="bar"><div style="width:90%"></div></div>
+      </div>
+
+      <div class="skill-row">
+        <span>Game Design</span>
+        <div class="bar"><div style="width:92%"></div></div>
+      </div>
+
+      <div class="skill-row">
+        <span>UI/UX Design</span>
+        <div class="bar"><div style="width:82%"></div></div>
+      </div>
+
+      <div class="skill-row">
+        <span>Live Operations</span>
+        <div class="bar"><div style="width:88%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="section-title reveal">
+      <p>Contact</p>
+      <h2>Let’s build something great.</h2>
+    </div>
+
+    <p class="reveal">
+      Reach out for opportunities, collaborations, or game development work.
+    </p>
+
+    <a href="mailto:your@email.com" class="btn primary reveal">Email Me</a>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Brandon Jones. Built with HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
