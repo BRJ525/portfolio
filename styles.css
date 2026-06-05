@@ -220,6 +220,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 14px;
+  justify-content: center;
 }
 
 .stats div {
